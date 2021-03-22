@@ -1,4 +1,4 @@
-<h1>Basic command of git and Creating project in Angular </h1>
+<h1>Basic command of git and Creating project in Angular</h1>
 <p>
   1. To get started , we need to create empty folder to clone with the repo.<br />
   2. Before Cloning the project, we need to create the repo in github by
@@ -15,7 +15,23 @@
 
 <h2>To Create Branch</h2>
 <p>
-  1. open the terminal in vs code or bash terminal <br>
-  2. git checkout -b branchname (Automatically , it will create the branch and switch to the respective branch ) <br>
-  3. git checkout branchname (it will helps to switch between branches)<br>
+  1. open the terminal in vs code or bash terminal <br />
+  2. git checkout -b branchname (Automatically , it will create the branch and
+  switch to the respective branch ) <br />
+  3. git checkout branchname (it will helps to switch between branches)<br />
+</p>
+
+<h3>Rebase: To get the changes to branch from master</h3>
+<p>
+  1. Go to the respective branch "git checkout feature"<br />
+  2. Then git rebase master <br />
+  3. You will get the changes <br />
+</p>
+
+<h3> Merge: Merge the changes from master to branch </h3>
+
+<p>
+  1.you need to stay which branch you want to bring the changes 
+   For example: now you're in master branch , you want to bring the changes from feature to master .<br>
+  2. git merge --squash feature   
 </p>
